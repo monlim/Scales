@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Musical Lunch</title>
+    <link rel="stylesheet" type="text/css" href="appstyle.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.31/Tone.js"></script>
+  </head>
+
+  <body>
+    Practice your scales at https://monlim.github.io/Scales/. Will not work in
+    Safari, please use Chrome or Firefox. Sound<input
+      id="soundOn"
+      type="checkbox"
+    />
+    <div class="container">
+      <video class="input_video"></video>
+      <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
